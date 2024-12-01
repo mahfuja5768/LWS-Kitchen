@@ -23,9 +23,9 @@ const Footer = () => {
             </p>
 
             <p className="text-gray-600">
-              "On the other hand, we denounce with righteous indignation and
+              On the other hand, we denounce with righteous indignation and
               dislike men who are so beguiled and demoralized by the charms of
-              pleasure of the moment."
+              pleasure of the moment.
             </p>
           </div>
           <div>

@@ -17,19 +17,24 @@ const Header = () => {
         </Link>
         <ul className="hidden md:flex space-x-6">
           <li>
-            <a href="./index.html" className="hover:text-orange-500">
+            <Link href="/" className="hover:text-orange-500">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="./category.html" className="hover:text-orange-500">
+            <Link href="/categories" className="hover:text-orange-500">
               Categories
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="./recipes.html" className="hover:text-orange-500">
+            <Link href="/lastesRecipes" className="hover:text-orange-500">
               Latest Recipes
-            </a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/handPicked" className="hover:text-orange-500">
+              Hand Picked
+            </Link>
           </li>
         </ul>
         <div className="flex items-center space-x-4">
